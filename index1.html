@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <!--引入外部样式-->
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <!--引入内部样式-->
+    <style type="text/css">
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<!--body标签内的为可视内容-->
+<body bgcolor="#faebd7">
+<!--h1 - h6 为标题的标签  align 定义标签内容的显示位置-->
+<h1 align="center">这是一个测试的页面</h1>
+<!--p 标签内的内容显示为段落  即下一内容将另起一行-->
+<p align="center">是的这是一个测试的页面</p>
+<!--img 标签显示图片 src属性定义图片的路径  width属性定义图片的宽  height定义图片的高-->
+<img src="images/luoqi2.jpg" width="800px" height="100%">
+<!--a 标签内容定义的是一个超链接  href属性定义的是链接地址  terget 属性定义的是这个链接以什么方式打开-->
+<a href="index.php" target="_blank" style="color: fuchsia">点我打开</a>
+<a href="dierge.html" target="_blank"><img src="images/luoqi3.jpg" width="100%" height="800px"></a>
+<!--该标签定义了一个表格 border该属性表示显示这个表格的边框-->
+<table border="2">
+    <!--该标签定义这个表格的标题-->
+    <caption>我是表格的标题</caption>
+    <!--tr标签定义这个表格的列-->
+    <tr>
+        <!--th标签定义这个表格的列的标题-->
+        <th>第一列</th>
+        <th>第二列</th>
+        <th>第三列</th>
+        <th>第四列</th>
+        <th>第五列</th>
+    </tr>
+    <tr>
+        <!--td标签代表一个单元格-->
+        <td>diyilie</td>
+        <td>dierlie</td>
+        <td>disanlie</td>
+        <td>dishilie</td>
+        <td>diwulie</td>
+    </tr>
+</table>
+
+<!--该标签创建表单-->
+<form>
+    用户名：
+    <!--创建一个输入域-->
+    <input type="text">
+    <br>
+    密码：
+    <input type="password">
+    <br>
+    记住密码<input type="checkbox"><!--多选框-->
+    <br>
+    单选按钮1<input type="radio" name="wang"><!--单选框-->
+    单选按钮2<input type="radio" name="wang"><!--单选框-->
+    单选按钮3<input type="radio" name="wang"><!--单选框-->
+    <br>
+    <!--下拉列表-->
+    <select>
+        <option>王超</option>
+        <option>刘庆丰</option>
+        <option>刘亚男</option>
+        <option>师有枝</option>
+    </select>
+    <br>
+    <!--文本域 cols代表列数  rows代表行数-->
+    <textarea cols="10" rows="10">你是谁啊</textarea>
+    <br>
+    <!--按钮-->
+    <button type="button">哈哈</button>
+    <input type="button" value="我也是个按钮">
+</form>
+<iframe src="test.html">123</iframe>
+
+
+</body>
+</html>
