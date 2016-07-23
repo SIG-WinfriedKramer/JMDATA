@@ -12,7 +12,7 @@
     //    }
 
     $wangchao1 = new mysqlconn();
-    $name = $wangchao1->getName();
+    //    $name = $wangchao1->getName();
     ?>
 </head>
 <body>
@@ -35,8 +35,10 @@
 <!-- ECharts单文件引入 -->
 <script src="js/echarts.js"></script><!--引入图标绘制-->
 <script src="js/macarons.js"></script><!--引入主题-->
-<script>
-
+<script language="JavaScript">
+    $src123 = "webpage/SectorDiagram.php";
+    //        self.location=$src123+"";//在当前页打开网页
+//    window.open($src123);//在新窗口中打开网页
     // 基于准备好的dom，初始化echarts图表
     function fangan1() {
 
